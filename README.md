@@ -1,6 +1,7 @@
 # Genome-Wide Association Study (GWAS)
 
-## What is GWAS?
+## [What is GWAS?](https://www.genome.gov/genetics-glossary/Genome-Wide-Association-Studies)
+A genome-wide association study (GWAS) is an approach used in genetics research to associate specific genetic variations with particular diseases. The method involves scanning the genomes from many different people and looking for genetic markers that can be used to predict the presence of a disease.  
 
 ## Things we need to learn before conducting GWAS  
 
