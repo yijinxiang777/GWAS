@@ -24,7 +24,6 @@
    |:----------------------:|:------------------:| :----------------:|
    | A                      | 0.45*0.45 = 0.2025 | 0.55*0.45 = 0.2475|
    | B                      | 0.55*0.45 = 0.2475 | 0.55*0.55 = 0.3025|         
-   的。这里展示的缩进5个汉字宽度的形式。
 
 <p style="padding-left:2em;">
 What to test whether there is difference between the expected genotype frequency and the observed genotype frequency (Chi-sqaure test with a p-value <0.05 can indicate the difference)   
