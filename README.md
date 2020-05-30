@@ -4,4 +4,4 @@
 
 > Things we need to learn before conducting GWAS  
 
-...Minor allele frequency (MAF)
+⋅⋅⋅Minor allele frequency (MAF)
