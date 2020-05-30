@@ -1,8 +1,8 @@
 # Genome-Wide Association Study (GWAS)
 
-> What is GWAS?
+## What is GWAS?
 
-> Things we need to learn before conducting GWAS  
+## Things we need to learn before conducting GWAS  
 
 1. Minor Allele Frequency (MAF)  
    * Frequency of the least often occurring allele at a specific location  
