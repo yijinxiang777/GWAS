@@ -25,10 +25,12 @@
    |:----------------------:|:------------------:| :----------------:|
    | A                      | 0.45*0.45 = 0.2025 | 0.55*0.45 = 0.2475|
    | B                      | 0.55*0.45 = 0.2475 | 0.55*0.55 = 0.3025|
-   > What to test whether there is difference between the expected genotype frequency and the observed genotype frequency
+   > What to test whether there is difference between the expected genotype frequency and the observed genotype frequency (Chi-sqaure) 
+   <img src="https://latex.codecogs.com/gif.latex?\begin{align*}&space;X^{2}&space;&=&space;\sum\frac{(O-E)^{2}}{E}\\&space;&=&space;\frac{(180-202.5)^{2}}{202.5}&space;&plus;&space;\frac{(540-495)^{2}}{495}&plus;&space;\frac{(280-302.5)^{2}}{302.5}\\&space;&=&space;8.25&space;\end{align*}" title="\begin{align*} X^{2} &= \sum\frac{(O-E)^{2}}{E}\\ &= \frac{(180-202.5)^{2}}{202.5} + \frac{(540-495)^{2}}{495}+ \frac{(280-302.5)^{2}}{302.5}\\ &= 8.25 \end{align*}" />   
    
    * In GWAS, we prefered to remove SNPs with low MAF
 
 ## Reference:  
 > Mills, Melinda C., Nicola Barban, and Felix C. Tropf. An Introduction to Statistical Genetic Data Analysis. MIT Press, 2020.  
 Marees, Andries T., et al. "A tutorial on conducting genome‐wide association studies: Quality control and statistical analysis." International journal of methods in psychiatric research 27.2 (2018): e1608.
+       
