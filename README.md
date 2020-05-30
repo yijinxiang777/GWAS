@@ -4,21 +4,19 @@
 
 ## Things we need to learn before conducting GWAS  
 
-1. Minor Allele Frequency (MAF)  
-   * Definition: Frequency of the least often occurring allele at a specific location  
-   ```
-    __Example__   
+1. Minor Allele Frequency (MAF)    
+   * Definition: Frequency of the least often occurring allele at a specific location   
+   **Example**   
    10 individuals, freq(AA) = 6, freq(AB) = 3, freq(BB) = 1   
    freq(A) = 6*2+3/20 = 0.75 freq(B) = 5/20 = 0.25   
    MAF = freq(B) = 0.25  
-   ```
    * In GWAS, we prefered to remove SNPs with low MAF
      1. Studies detecting the association with SNPs with a low MAP would be underpowered
      2. SNPs with low MAP are often more prine to genotyping errors  
    
 2. Hardy-Weinberg Equilibrium (HWE)  
-   * Definition: An Assumption states that the genotype and the allele frequencies are constant over generations and the population the population is with no selection, mutation, or migration.  
-   > __Example__  
+   * Definition: An Assumption states that the genotype and the allele frequencies are constant over generations and the population the population is with no selection, mutation, or migration.    
+   **Example**  
    In the population: 
    N=1000 freq(A) = 0.45 freq(B) = 0.55   
    freq(AA) = 0.18 freq(AB) = 0.54 freq(BB) = 0.28
