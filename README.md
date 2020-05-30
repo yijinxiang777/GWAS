@@ -26,7 +26,7 @@
    | A                      | 0.45*0.45 = 0.2025 | 0.55*0.45 = 0.2475|
    | B                      | 0.55*0.45 = 0.2475 | 0.55*0.55 = 0.3025|         
 
-    <img src="https://latex.codecogs.com/gif.latex?\begin{align*}&space;X^{2}&space;=&space;\sum\frac{(O-E)^{2}}{E}&space;=&space;\frac{(180-202.5)^{2}}{202.5}&space;&plus;&space;\frac{(540-495)^{2}}{495}&plus;&space;\frac{(280-302.5)^{2}}{302.5}&space;=&space;8.25&space;\end{align*}" title="\begin{align*} X^{2} = \sum\frac{(O-E)^{2}}{E} = \frac{(180-202.5)^{2}}{202.5} + \frac{(540-495)^{2}}{495}+ \frac{(280-302.5)^{2}}{302.5} = 8.25 \end{align*}" />
+    <img src="https://latex.codecogs.com/gif.latex?\begin{align*}&space;X^{2}&space;=&space;\sum\frac{(O-E)^{2}}{E}&space;=&space;\frac{(180-202.5)^{2}}{202.5}&space;&plus;&space;\frac{(540-495)^{2}}{495}&plus;&space;\frac{(280-302.5)^{2}}{302.5}&space;=&space;8.25&space;\end{align*}" title="\begin{align*} X^{2} = \sum\frac{(O-E)^{2}}{E} = \frac{(180-202.5)^{2}}{202.5} + \frac{(540-495)^{2}}{495}+ \frac{(280-302.5)^{2}}{302.5} = 8.25 \end{align*}" />   
    * In GWAS, we prefered to remove SNPs with low HWE  
      1. It is generally assumed that deviations from HWE are the result of genotyping errors.  
  
