@@ -33,7 +33,7 @@ A genome-wide association study (GWAS) is an approach used in genetics research 
  
 3. linkage Disequilibrium (LD)
     * **Definition**: This is a measure of non‐random association between alleles at different loci at the same chromosome in a given population.   
-    **[Example](https://pbgworks.org/sites/pbgworks.org/files/measuresoflinkagedisequilibrium-111119214123-phpapp01_0.pdf)**   
+    * **[Example](https://pbgworks.org/sites/pbgworks.org/files/measuresoflinkagedisequilibrium-111119214123-phpapp01_0.pdf)**   
     ![basic](https://raw.githubusercontent.com/yijinxiang777/Images/master/data.png)    
     Observed:  
     ![OBSERVED](https://raw.githubusercontent.com/yijinxiang777/Images/master/observed.png)     
