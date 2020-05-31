@@ -34,9 +34,18 @@ A genome-wide association study (GWAS) is an approach used in genetics research 
 3. linkage Disequilibrium (LD)
     * **Definition**: This is a measure of non‐random association between alleles at different loci at the same chromosome in a given population.   
     **[Example](https://pbgworks.org/sites/pbgworks.org/files/measuresoflinkagedisequilibrium-111119214123-phpapp01_0.pdf)**   
-    ![](https://raw.githubusercontent.com/yijinxiang777/Images/master/WX20200530-151444.png)  
-    When the loci are in linkage equilibrium:  
-    ![](https://raw.githubusercontent.com/yijinxiang777/Images/master/WX20200530-185554.png) 
+    ![basic](https://raw.githubusercontent.com/yijinxiang777/Images/master/data.png)    
+    Observed:  
+    ![OBSERVED](https://raw.githubusercontent.com/yijinxiang777/Images/master/observed.png)     
+    ![EorD](https://raw.githubusercontent.com/yijinxiang777/Images/master/expcedt.png)  
+    * **Standardization of D**: A common standardization method to gain a relative measure of D  
+    <img src="https://latex.codecogs.com/gif.latex?{D}'=&space;D/D_{max}&space;\quad&space;D_{max}&space;=&space;\begin{cases}&space;min(p1q2,p2q1)&space;&&space;if&space;D>0&space;\\&space;min(p1q1,p2q2)&&space;if&space;D<0&space;\end{cases}" title="{D}'= D/D_{max} \quad D_{max} = \begin{cases} min(p1q2,p2q1) & if D>0 \\ min(p1q1,p2q2)& if D<0 \end{cases}" />  
+    
+    * **Correlation Coefficient**: Another measure of LD   
+    <img src="https://latex.codecogs.com/gif.latex?r&space;=&space;\frac{D}{(p1p2q1q2)^{1/2}}" title="r = \frac{D}{(p1p2q1q2)^{1/2}}" />    
+    
+    * **Test Significance of LD**: Chi-sqaure Test    
+    <img src="https://latex.codecogs.com/gif.latex?X^{2}&space;=&space;\sum&space;\frac{(Observed-Expected)^{2}}{Expected}" title="X^{2} = \sum \frac{(Observed-Expected)^{2}}{Expected}" />  
     
 ## Reference:  
 > Mills, Melinda C., Nicola Barban, and Felix C. Tropf. An Introduction to Statistical Genetic Data Analysis. MIT Press, 2020.  
