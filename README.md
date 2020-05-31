@@ -47,7 +47,9 @@ A genome-wide association study (GWAS) is an approach used in genetics research 
     * **Test Significance of LD**: Chi-sqaure Test    
     <img src="https://latex.codecogs.com/gif.latex?X^{2}&space;=&space;\sum&space;\frac{(Observed-Expected)^{2}}{Expected}" title="X^{2} = \sum \frac{(Observed-Expected)^{2}}{Expected}" />  
     
-## Reference:  
+## Quality Check Steps before GWAS  
+
+## Reference   
 > Mills, Melinda C., Nicola Barban, and Felix C. Tropf. An Introduction to Statistical Genetic Data Analysis. MIT Press, 2020.  
 Marees, Andries T., et al. "A tutorial on conducting genome‐wide association studies: Quality control and statistical analysis." International journal of methods in psychiatric research 27.2 (2018): e1608.
        
