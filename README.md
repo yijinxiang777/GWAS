@@ -21,10 +21,6 @@ A genome-wide association study (GWAS) is an approach used in genetics research 
    N=1000 freq(A) = 0.45 freq(B) = 0.55 freq(AA) = 0.18 freq(AB) = 0.54 freq(BB) = 0.28  
    What to test whether there is difference between the expected genotype frequency and the observed genotype frequency (Chi-sqaure test with a p-value <0.05 can indicate the difference)  
 
-   | Expected Genotype Freq |A                   | B                 |
-   |:----------------------:|:------------------:| :----------------:|
-   | A                      | 0.45*0.45 = 0.2025 | 0.55*0.45 = 0.2475|
-   | B                      | 0.55*0.45 = 0.2475 | 0.55*0.55 = 0.3025|         
 
     <img src="https://latex.codecogs.com/gif.latex?\begin{align*}&space;X^{2}&space;=&space;\sum\frac{(O-E)^{2}}{E}&space;=&space;\frac{(180-202.5)^{2}}{202.5}&space;&plus;&space;\frac{(540-495)^{2}}{495}&plus;&space;\frac{(280-302.5)^{2}}{302.5}&space;=&space;8.25&space;\end{align*}" title="\begin{align*} X^{2} = \sum\frac{(O-E)^{2}}{E} = \frac{(180-202.5)^{2}}{202.5} + \frac{(540-495)^{2}}{495}+ \frac{(280-302.5)^{2}}{302.5} = 8.25 \end{align*}" />    
     
@@ -47,7 +43,23 @@ A genome-wide association study (GWAS) is an approach used in genetics research 
     * **Test Significance of LD**: Chi-sqaure Test    
     <img src="https://latex.codecogs.com/gif.latex?X^{2}&space;=&space;\sum&space;\frac{(Observed-Expected)^{2}}{Expected}" title="X^{2} = \sum \frac{(Observed-Expected)^{2}}{Expected}" />  
     
-## Quality Check Steps before GWAS  
+## [Quality Check Steps before GWAS](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6001694/table/mpr1608-tbl-0001/?report=objectonly)  
+  * **Individual and SNP missingness**: Excludes SNPs that are missing in a large proportion of the subjects & Excludes individuals who have high rates of genotype missingness   
+  * **Minor allele frequency (MAF)**: Includes only SNPs above the set MAF threshold  
+  * **Deviations from Hardy–Weinberg equilibrium (HWE)**: Excludes markers which deviate from Hardy–Weinberg equilibrium   
+  * **Inconsistencies in assigned and genetic sex of subjects**  
+  * **Heterozygosity rate**  
+  * **Relatedness**  
+  * **Ethnic outliers (population stratification)**
+  
+## Modeling for GWAS   
+  * **Coding Genetics Effect**  
+  
+   | Expected Genotype Freq |AA                   | B                 |
+   |:----------------------:|:------------------:| :----------------:|
+   | A                      | 0.45*0.45 = 0.2025 | 0.55*0.45 = 0.2475|
+   | B                      | 0.55*0.45 = 0.2475 | 0.55*0.55 = 0.3025|  
+## Result Interpretation  
 
 ## Reference   
 > Mills, Melinda C., Nicola Barban, and Felix C. Tropf. An Introduction to Statistical Genetic Data Analysis. MIT Press, 2020.  
