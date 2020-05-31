@@ -52,19 +52,19 @@ A genome-wide association study (GWAS) is an approach used in genetics research 
   * **Relatedness**  
   * **Ethnic outliers (population stratification)**
 ## Type 1 and Type 2 Errors  
-  * **Multiple Test Adjustment**:
-  
+  * **Multiple Test Adjustment**: probability of commiting tat least one Type 1 error is <img src="https://latex.codecogs.com/gif.latex?1-(1-\alpha)^{M}\approx&space;\alpha&space;M" title="1-(1-\alpha)^{M}\approx \alpha M" />  
+    To ensure an overall Type 1 error rate <img src="https://latex.codecogs.com/gif.latex?\leq" title="\leq" /> 0.05, set <img src="https://latex.codecogs.com/gif.latex?\alpha" title="\alpha" /> to 0.05/M (Bonfoerroni correction).  
   * **Powers**: Probability that there is a true association between the SNPs and the trait and we can identify the association
     1) Allele frequency     
     2) Significance threshold   
     3) Numerber of samples 
-    4) Effect Size (How strong the association is?)
+    4) Effect Size (How strong the association)
     
 ![](https://raw.githubusercontent.com/yijinxiang777/Images/master/WX20200531-112015.png)[Zondervan, Krina T, and Lon R Cardon(2007)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4180089/)     
   
 ## Modeling for GWAS   
   * **Coding Genetics Effect**  
-  ![](https://raw.githubusercontent.com/yijinxiang777/Images/master/WX20200531-101551.png)  
+  ![](https://raw.githubusercontent.com/yijinxiang777/Images/master/WX20200531-101551.png)     
   * **Association testing**
   Linear model: <img src="https://latex.codecogs.com/gif.latex?y_{i}&space;=&space;\alpha&space;&plus;&space;\beta&space;x_{i}&plus;&space;\epsilon_{i}" title="y_{i} = \alpha + \beta x_{i}+ \epsilon_{i}" />  
   y - represents the value of trait (i.e., phenotype)
@@ -72,6 +72,15 @@ A genome-wide association study (GWAS) is an approach used in genetics research 
   ε - error term representing unobservables and random noise in y  
  
 ## Result Interpretation  
+  * **[Q-Q Plot](https://physiology.med.cornell.edu/people/banfelder/qbio/resources_2013/2013_1_Mezey.pdf)**: The quantile distribution of observed p-values V.S. the quantile distribution of expected p-values(uniform distribution)  
+  ![](https://raw.githubusercontent.com/yijinxiang777/Images/master/WX20200531-131116.png)
+  * **[Inflamtion Factor (IF)](https://genome.sph.umich.edu/w/images/f/f1/Seqshop_genetic_association_analysis_141211.pdf)**  
+    1) <img src="https://latex.codecogs.com/gif.latex?\lambda&space;=\frac{Median\:Observed\:X^{2}}{Median\:Expected\:X^{2}}" title="\lambda =\frac{Median\:Observed\:X^{2}}{Median\:Expected\:X^{2}}" />      
+  
+    2)  What if IF is not close to 1? [Solutions](https://genome.sph.umich.edu/w/images/d/d6/666.13.pdf)     
+  
+  * **Mahhattan Plot**    
+  ![](https://raw.githubusercontent.com/yijinxiang777/Images/master/WX20200531-140101.png) [plot](https://angus.readthedocs.io/en/2017/meta_GWAS.html)  
 
 ## Reference   
 > Mills, Melinda C., Nicola Barban, and Felix C. Tropf. An Introduction to Statistical Genetic Data Analysis. MIT Press, 2020.  
