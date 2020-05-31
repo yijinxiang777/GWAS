@@ -51,19 +51,30 @@ A genome-wide association study (GWAS) is an approach used in genetics research 
   * **Heterozygosity rate**  
   * **Relatedness**  
   * **Ethnic outliers (population stratification)**
+## Type 1 and Type 2 Errors  
+  * **Multiple Test Adjustment**:
+  
+  * **Powers**: Probability that there is a true association between the SNPs and the trait and we can identify the association
+    1) Allele frequency     
+    2) Significance threshold   
+    3) Numerber of samples 
+    4) Effect Size (How strong the association is?)
+    
+![](https://raw.githubusercontent.com/yijinxiang777/Images/master/WX20200531-112015.png)[Zondervan, Krina T, and Lon R Cardon(2007)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4180089/)     
   
 ## Modeling for GWAS   
   * **Coding Genetics Effect**  
   ![](https://raw.githubusercontent.com/yijinxiang777/Images/master/WX20200531-101551.png)  
   * **Association testing**
   Linear model: <img src="https://latex.codecogs.com/gif.latex?y_{i}&space;=&space;\alpha&space;&plus;&space;\beta&space;x_{i}&plus;&space;\epsilon_{i}" title="y_{i} = \alpha + \beta x_{i}+ \epsilon_{i}" />  
-  - y represents the value of trait  
-  - x numerical representation fo genotype  
-  - ε error term representing unobservables and random noise in y  
-
+  y - represents the value of trait (i.e., phenotype)
+  x - numerical representation fo genotype  
+  ε - error term representing unobservables and random noise in y  
+ 
 ## Result Interpretation  
 
 ## Reference   
 > Mills, Melinda C., Nicola Barban, and Felix C. Tropf. An Introduction to Statistical Genetic Data Analysis. MIT Press, 2020.  
-Marees, Andries T., et al. "A tutorial on conducting genome‐wide association studies: Quality control and statistical analysis." International journal of methods in psychiatric research 27.2 (2018): e1608.
+Marees, Andries T., et al. "A tutorial on conducting genome‐wide association studies: Quality control and statistical analysis." International journal of methods in psychiatric research 27.2 (2018): e1608.  
+Zondervan, Krina T, and Lon R Cardon. “Designing candidate gene and genome-wide case-control association studies.” Nature protocols vol. 2,10 (2007): 2492-501. doi:10.1038/nprot.2007.366
        
