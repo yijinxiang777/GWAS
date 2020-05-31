@@ -54,11 +54,13 @@ A genome-wide association study (GWAS) is an approach used in genetics research 
   
 ## Modeling for GWAS   
   * **Coding Genetics Effect**  
-  
-   | Expected Genotype Freq |AA                   | B                 |
-   |:----------------------:|:------------------:| :----------------:|
-   | A                      | 0.45*0.45 = 0.2025 | 0.55*0.45 = 0.2475|
-   | B                      | 0.55*0.45 = 0.2475 | 0.55*0.55 = 0.3025|  
+  ![](https://raw.githubusercontent.com/yijinxiang777/Images/master/WX20200531-101551.png)  
+  * **Association testing**
+  Linear model: <img src="https://latex.codecogs.com/gif.latex?y_{i}&space;=&space;\alpha&space;&plus;&space;\beta&space;x_{i}&plus;&space;\epsilon_{i}" title="y_{i} = \alpha + \beta x_{i}+ \epsilon_{i}" />  
+  - y represents the value of trait  
+  - x numerical representation fo genotype  
+  - ε error term representing unobservables and random noise in y  
+
 ## Result Interpretation  
 
 ## Reference   
